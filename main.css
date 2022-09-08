@@ -1,0 +1,72 @@
+* {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 1px;
+}
+.main {
+	background-color: #e3e4e5;
+	color: black;
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+	border-radius: 10px;
+}
+.main h2, p {
+	margin: 5px;
+	line-height: 22px;
+}
+.titulo {
+	color: #f8f9fa;
+	text-shadow: 6px 4px 4px #5b262e;
+}
+.nav-btn {
+	display: flex;
+	flex-direction: column;
+}
+button {
+	height: 40px;
+	width: 180px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 40px;
+	background-color: white;
+	border: 1px solid #01cd74;
+	transition: 0.2s;
+    font-family: GoodTimes, sans-serif;
+}
+.sect-btn {
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+	background-color: lightgrey; border-radius: 10px;
+}
+.integral-img {
+	width: 400px;
+	border-radius: 10px;
+}
+.integral-iframe {
+	outline: none;
+	border: none;
+	border-radius: 10px;
+}
+.pdf-btn {
+	background-color: red;
+
+}
+.pdf-btn a{
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}
+.pdf-btn:hover {
+	background-color:  #d3271b;
+}
+.pdf-btn:active {
+	background-color:  #d3271b;
+}
+@media only screen and (max-width: 560px) {
+	.integral-img {
+	width: 200px;
+	border-radius: 10px;
+	}
+}

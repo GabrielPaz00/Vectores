@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="sign_up.css">
+  <title>Inicio</title>
+</head>
+<body>
+  <br />
+  <section class="main">
+    <article>
+    <h2>Suma de vectores</h2>
+    <form class="form" action="conection.php" action="config.php" method="post">
+    <h2>Datos</h2>
+    <br/> 
+    <label for="vector1"><h3>Vector A</h3></label>
+    <p>
+    <b>i</b><input type="number" id="ia"name="vector1">&nbsp;
+    <b>j</b><input type="number" id="ja"name="vector1">&nbsp;
+    </p>
+    <br>
+    <label for="vector2"><h3>Vector B</h3></label>
+    <p>
+    <b>i</b><input type="number" id="ib"name="vector2">&nbsp;
+    <b>j</b><input type="number" id="jb"name="vector2">&nbsp;
+    </p>
+    <br>
+    <h3>Vector AB</h3><p id="res"><a id="r"></a></p>
+    <input type="reset" name="reset" value="Limpiar"> 
+    <!--Restablece los campos a sus valores predetermidados-->
+    &nbsp; &nbsp;
+    <button type="button" id="enviar" name="enviar" onclick="SumarV()">Calcular</button>
+    <br/>
+  </form>
+  <br/>
+  </article>
+  </section>
+</body>
+</html>
